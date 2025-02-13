@@ -1,4 +1,4 @@
--- Relative line numbers
+-- relative line numbers
 vim.opt.number = true
 vim.opt.relativenumber = true
 
@@ -9,18 +9,18 @@ vim.opt.shiftwidth = 4
 vim.opt.smarttab = true
 vim.opt.expandtab = true
 
--- Smart indenting
+-- smart indenting
 vim.opt.autoindent = true
 vim.opt.smartindent = true
 
--- No line wrap
+-- no line wrap
 vim.opt.wrap = false
 
--- Search highlighting
+-- search highlighting
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
 
--- Keep 9 lines on top/bottom
+-- keep 9 lines on top/bottom
 vim.opt.scrolloff = 9
 
 -- 80 char col
