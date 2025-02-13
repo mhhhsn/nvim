@@ -25,3 +25,6 @@ vim.opt.scrolloff = 9
 
 -- 80 char col
 vim.opt.colorcolumn = "80"
+
+-- show whitespace
+vim.opt.list = true
