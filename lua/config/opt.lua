@@ -23,8 +23,8 @@ vim.opt.incsearch = true
 -- keep 9 lines on top/bottom
 vim.opt.scrolloff = 9
 
--- 80 char col
-vim.opt.colorcolumn = "80"
+-- 80, 120 char col
+vim.opt.colorcolumn = { "80", "120" }
 
 -- show whitespace
 vim.opt.list = true
