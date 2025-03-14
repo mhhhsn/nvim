@@ -1,12 +1,10 @@
 return {
 	{
-		"sainnhe/everforest",
+		"https://git.mhsn.net/lain.vim",
 		lazy = false,
 		priority = 1000,
 		config = function()
-			vim.g.everforest_background = "hard"
-			vim.g.everforest_disable_italic_comment = true
-			vim.cmd.colorscheme("everforest")
+			vim.cmd.colorscheme("lain")
 		end,
 	},
 }
