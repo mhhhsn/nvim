@@ -13,6 +13,11 @@ return {
 					function(lsp)
 						require("lspconfig")[lsp].setup({})
 					end,
+					["tinymist"] = function()
+						require("lspconfig")["tinymist"].setup({
+							settings = { formatterMode = "typstyle" },
+						})
+					end,
 				},
 			})
 		end,
