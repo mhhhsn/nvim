@@ -9,6 +9,12 @@ return {
 		dependencies = { "mason.nvim" },
 		config = function()
 			require("mason-lspconfig").setup({
+				ensure_installed = {
+					"lua_ls",
+					"pylsp",
+					"rust_analyzer",
+					"tinymist",
+				},
 				handlers = {
 					function(lsp)
 						require("lspconfig")[lsp].setup({})
