@@ -28,3 +28,6 @@ vim.opt.colorcolumn = { "80", "120" }
 
 -- show whitespace
 vim.opt.list = true
+
+-- ^A, ^X behaviour
+vim.opt.nrformats = "unsigned,alpha,hex,bin"
