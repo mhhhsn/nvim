@@ -6,12 +6,6 @@ return {
 		end
 	},
 	{
-		"echasnovski/mini.pairs",
-		config = function()
-			require("mini.pairs").setup()
-		end
-	},
-	{
 		"echasnovski/mini.surround",
 		config = function()
 			require("mini.surround").setup()
